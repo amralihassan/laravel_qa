@@ -75,7 +75,6 @@ class QuestionsController extends Controller
     {
         $question->update($request->only('title','body'));
         return redirect('/questions')->with('success','Your questions has been updated');
-
     }
 
     /**
@@ -84,8 +83,10 @@ class QuestionsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Question $question)
     {
-        //
+        $question->delete();
+        return redirect('/questions')->with('success','Your questions has been deleted');
+
     }
 }
