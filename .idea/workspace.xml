@@ -7,9 +7,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -113,7 +120,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -133,6 +142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594226486302</updated>
       <workItem from="1594226499057" duration="2120000" />
+      <workItem from="1594586000825" duration="5134000" />
     </task>
     <servers />
   </component>
@@ -141,5 +151,11 @@
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="717" y="254" width="530" height="594" key="FileChooserDialogImpl" timestamp="1594237551051">
+      <screen x="54" y="27" width="1866" height="1053" />
+    </state>
+    <state x="717" y="254" width="530" height="594" key="FileChooserDialogImpl/54.27.1866.1053@54.27.1866.1053" timestamp="1594237551051" />
   </component>
 </project>
